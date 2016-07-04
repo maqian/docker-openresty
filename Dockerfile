@@ -1,6 +1,6 @@
 FROM openresty/openresty:1.9.15.1-centos
 
-MAINTAINER Ma Qian<qian.ma@shuyun.com>
+MAINTAINER Ma Qian<maqian258@gmail.com>
 
 COPY deps /tmp/deps
 

@@ -1,6 +1,6 @@
 # docker-openresty
 
-openresty官方的lua库中没有zlib和ldap的支持，这里增加了zlib和ldap的支持。
+openresty官方的lua库中没有zlib和ldap的支持，这里增加了zlib和ldap的lua库。
 
 lua-zlib(0.4)：https://github.com/brimworks/lua-zlib
 
