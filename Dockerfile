@@ -11,5 +11,5 @@ RUN yum install -y cmake openldap-devel \
     && mv /usr/local/share/lua/cmod/zlib.so /usr/local/openresty/luajit/lib \
     && cd /tmp/deps/lua-ldap-1.2.3 \
     && make LUA_INC=/usr/local/openresty/luajit/include/luajit-2.1  LUA_LIBDIR=/usr/local/openresty/luajit/lib && make install \
-    && mv /usr/lib/lua/5.1/lualdap.so /usr/local/openresty/luajit/lib \
+    && mv /usr/lib/lua/5.1/lualdap.so* /usr/local/openresty/luajit/lib \
     && rm -rf /tmp/deps
